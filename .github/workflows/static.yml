@@ -1,3 +1,57 @@
+/* Estilos base */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Logo y navegación */
+.logo {
+    color: #333;
+    text-decoration: none;
+}
+
+.logo .symbol img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Mejoras en las tarjetas */
+.article .style1, .article .style2, .article .style3, .article .style4, .article .style5, .article .style6 {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.article .style1:hover, .article .style2:hover, .article .style3:hover, .article .style4:hover, .article .style5:hover, .article .style6:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilos para el footer */
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
